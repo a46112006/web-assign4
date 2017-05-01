@@ -1,0 +1,208 @@
+.icon{
+    padding-bottom: 10px;
+}
+.textgreen,.option, .title{
+    color: rgb(96,190,174);
+    float: left;
+}
+nav>ul{
+	list-style: none;
+	margin: 0;
+    padding: 0;
+    display: flex;
+}
+.option{
+    background-color: rgb(239,248,247);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.option h3{
+    font-size: 2rem;
+}
+.option p{
+    font-size: 1rem;
+}
+.title{
+    font-size: 1.8rem;
+}
+time{
+    color: #AAA;
+}
+
+@media screen and (max-width: 480px){
+    body {
+        margin-top: 10px;
+        max-width: 350px;
+    }
+    .textgreen{
+        order: 0;
+        font-size: 1.4rem;
+    }
+    .icon{
+        order: 1;
+        width: 60px;
+    }
+    #discuss01{
+        height: 233px;
+        width: 100%;
+    }
+    #titleA, #titleB{
+        float: bottom;
+        font-size: 1rem;
+        line-height: 1rem;
+        padding: 10px;
+        text-align: left;
+        width: 100%;
+    }
+    #titleB{
+        color: white;
+        background-color: black;
+    }
+    .arti-with-pic{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    aside{
+        display: none;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    body {
+        max-width: 480px;
+        margin-top: 20px;
+    }
+    .icon{
+        width: 60px;
+    }
+    .textgreen{
+        font-size: 1.7rem;
+        margin: 20px;
+    }
+    #discuss01{
+        height: 248px;
+        width: 100%;
+    }
+    #titleA, #titleB{
+        float: bottom;
+        font-size: 1rem;
+        line-height: 1rem;
+        padding: 10px;
+        text-align: left;
+        width: 100%;
+    }
+    #titleB{
+        color: white;
+        background-color: black;
+    }
+    .arti-with-pic{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    aside{
+        display: none;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 991px){
+    body {
+        max-width: 768px;
+        margin-top: 30px;
+    }
+    .icon{
+        width: 100px;
+    }
+    .textgreen{
+        font-size: 1.7rem;
+        margin: 20px;
+    }
+    #discuss01{
+        height: 445px;
+        width: 100%;
+    }
+    .title-box{
+        margin-bottom: 80px;
+    }
+    #titleA, #titleB{
+        font-size: 2.2rem;
+        line-height: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    #titleB{
+        color: white;
+        background-color: black;
+    }
+    .option h3{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .arti-with-pic{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    aside{
+        display: none;
+    }
+}
+@media screen and (min-width: 992px){
+    body {
+        max-width: 991px;
+        margin-top: 50px;
+    }
+    #nav-info{
+         float:left; 
+         width:20%;
+        }
+
+    #main{
+        float:right;
+        width:80%;
+        }
+    .icon{
+        width: 100px;
+    }
+    .textgreen{
+        font-size: 2rem;
+        margin: 18px;
+    }
+    #discuss01{
+        height: 445px;
+        width: 100%;
+    }
+    .title-box{
+        margin-bottom: 80px;
+    }
+    #titleA, #titleB{
+        font-size: 2.2rem;
+        line-height: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    #titleB{
+        color: white;
+        background-color: black;
+    }
+    .option h3{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    aside{
+        color: rgb(87,87,87);
+        padding-right: 100px;
+    }
+    #let{
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+    #for{
+        font-size: .8rem;
+    }
+    .arti-with-pic{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
